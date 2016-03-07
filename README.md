@@ -4,9 +4,9 @@
 
 Ensures your javascript can use underscore or lodash interchangeably as a dependency.
 
-If you maintain a codebase and are thinking of moving over to lodash, this plugin can help! It can ensure your code uses only the subset of underscore that works with lodash. Once you get that point, you can replace your underscore dependency with lodash and complete the migration.
+If you maintain a codebase and are thinking of moving over to lodash, this plugin can help. It can ensure your code uses only the subset of underscore that is compatible with lodash. Once you get to that point, you can replace your underscore dependency with lodash and complete the migration.
 
-**Note:** This plugin is underdevelopment. Due to the limitations of static analysis, this plugin can only do a best effort, and doesn't absolutely guarantee that your code will be fully compatible with both libraries.
+**Note:** This plugin is under development, and a few more rules should be coming up (contributions welcome!). Also, due to the limitations of static analysis, this plugin can only do a best effort, and doesn't absolutely guarantee that your code will be fully compatible with both libraries.
 
 ## Installation
 
