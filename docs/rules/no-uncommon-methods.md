@@ -1,17 +1,25 @@
 # Ensures that methods being used are available in both underscore and lodash. (no-uncommon-methods)
 
-Please describe the origin of the rule here.
+While similar in purpose, underscore and lodash don't have the exact
+same functions.
 
 
 ## Rule Details
 
-This rule aims to...
+This rule aims to alert whenever a function is being used that isn't
+available in either lodash or underscore. Enabling this rule will ensure
+that both the libraries have the function that you are using. In case
+you are using an alias that is only available in either of the
+libraries, the rule will still alert you against it.
 
 The following patterns are considered warnings:
 
 ```js
 
-// fill me in
+_.includes([1, 2, 3], 2);
+
+_.uniq([1, 2, 3, 1, 3, 2]);
+_.last([1, 2, 3]);
 
 ```
 
@@ -19,18 +27,7 @@ The following patterns are not warnings:
 
 ```js
 
-// fill me in
+_.contains([1, 2, 3], 2);
+_.unique([1, 2, 3, 1, 3, 2]);
 
 ```
-
-### Options
-
-If there are any options, describe them here. Otherwise, delete this section.
-
-## When Not To Use It
-
-Give a short description of when it would be appropriate to turn off this rule.
-
-## Further Reading
-
-If there are other links that describe the issue this rule addresses, please include them here in a bulleted list.
