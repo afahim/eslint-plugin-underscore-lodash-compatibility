@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/afahim/eslint-plugin-underscore-lodash-compatibility.svg?token=18P1vcrLERnBMRF4mJ2v&branch=master)](https://travis-ci.com/afahim/eslint-plugin-underscore-lodash-compatibility)
+
 # eslint-plugin-underscore-lodash-compatibility
 
 Ensures your javascript can use underscore or lodash interchangeably as a dependency.
