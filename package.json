@@ -1,18 +1,25 @@
 {
   "name": "eslint-plugin-underscore-lodash-compatibility",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Ensures your code can use underscore or lodash interchangeably as a dependency.",
   "keywords": [
     "eslint",
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "Afnan Fahim",
+  "author": "Afnan Fahim <afnan@afnanfahim.com>",
   "main": "lib/index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha tests/*/*",
     "lint": "./node_modules/.bin/eslint ./"
   },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "lib"
+  ],
+  "homepage": "https://github.com/afahim/eslint-plugin-underscore-lodash-compatibility",
+  "bugs": "https://github.com/afahim/eslint-plugin-underscore-lodash-compatibility/issues",
   "dependencies": {
     "requireindex": "~1.1.0",
     "underscore": ">=1.8.3",
