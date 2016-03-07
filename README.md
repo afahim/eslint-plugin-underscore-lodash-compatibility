@@ -43,7 +43,7 @@ Then configure the rules you want to use under the rules section.
 
 ## Supported Rules
 
-* Fill in provided rules here
+* [no-uncommon-functions](docs/rules/no-uncommon-functions.md): Disallow functions that don't exist in lodash or underscore
 
 
 ## License and Copyright

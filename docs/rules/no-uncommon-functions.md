@@ -1,4 +1,4 @@
-# Ensures that methods being used are available in both underscore and lodash. (no-uncommon-methods)
+# Disallow functions uncommon between underscore and lodash. (no-uncommon-functions)
 
 While similar in purpose, underscore and lodash don't have the exact
 same functions.
@@ -16,10 +16,8 @@ The following patterns are considered warnings:
 
 ```js
 
-_.includes([1, 2, 3], 2);
-
-_.uniq([1, 2, 3, 1, 3, 2]);
-_.last([1, 2, 3]);
+_.contains([1, 2, 3], 2);
+_.unique([1, 2, 3, 1, 3, 2]);
 
 ```
 
@@ -27,7 +25,8 @@ The following patterns are not warnings:
 
 ```js
 
-_.contains([1, 2, 3], 2);
-_.unique([1, 2, 3, 1, 3, 2]);
+_.includes([1, 2, 3], 2);
+_.uniq([1, 2, 3, 1, 3, 2]);
+_.last([1, 2, 3]);
 
 ```

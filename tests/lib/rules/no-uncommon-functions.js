@@ -10,7 +10,7 @@
 // Requirements
 //------------------------------------------------------------------------------
 var RuleTester = require("eslint").RuleTester;
-var rule = require("../../../lib/rules/no-uncommon-methods");
+var rule = require("../../../lib/rules/no-uncommon-functions");
 
 
 //------------------------------------------------------------------------------
@@ -18,7 +18,7 @@ var rule = require("../../../lib/rules/no-uncommon-methods");
 //------------------------------------------------------------------------------
 
 var ruleTester = new RuleTester();
-ruleTester.run("no-uncommon-methods", rule, {
+ruleTester.run("no-uncommon-functions", rule, {
 
     valid: [
         "_.includes([1, 2, 3], 2);",
