@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/afahim/eslint-plugin-underscore-lodash-compatibility.svg?token=18P1vcrLERnBMRF4mJ2v&branch=master)](https://travis-ci.com/afahim/eslint-plugin-underscore-lodash-compatibility)
+[![Build Status](https://travis-ci.org/afahim/eslint-plugin-underscore-lodash-compatibility.svg?branch=master)](https://travis-ci.org/afahim/eslint-plugin-underscore-lodash-compatibility)
 
 # eslint-plugin-underscore-lodash-compatibility
 
