@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/afahim/eslint-plugin-underscore-lodash-compatibility.svg?branch=master)](https://travis-ci.org/afahim/eslint-plugin-underscore-lodash-compatibility)
+[![NPM version](https://img.shields.io/npm/v/eslint-plugin-underscore-lodash-compatibility.svg?style=flat-square)](https://www.npmjs.com/package/eslint-plugin-underscore-lodash-compatibility)
 
 # eslint-plugin-underscore-lodash-compatibility
 
