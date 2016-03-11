@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-underscore-lodash-compatibility",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Ensures your code can use underscore or lodash interchangeably as a dependency.",
   "keywords": [
     "eslint",
