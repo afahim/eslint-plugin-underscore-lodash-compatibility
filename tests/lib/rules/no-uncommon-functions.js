@@ -23,7 +23,9 @@ ruleTester.run("no-uncommon-functions", rule, {
     valid: [
         "_.includes([1, 2, 3], 2);",
         "_.uniq([1, 2, 3, 1, 3, 2]);",
-        "_.last([1, 2, 3]);"
+        "_.last([1, 2, 3]);",
+        "_(a).map(f).filter(g).value()",
+        "_.chain(a).map(f).first().assign(obj).value()"
     ],
 
     invalid: [
@@ -42,6 +44,10 @@ ruleTester.run("no-uncommon-functions", rule, {
         {
             code: "_.capitalize(\"not capitalized\");",
             errors: ["_.capitalize only exists in lodash and not in underscore."]
+        },
+        {
+            code: "_(a).map(f).join(\" \")",
+            errors: ["_.join only exists in lodash and not in underscore."]
         }
     ]
 });
