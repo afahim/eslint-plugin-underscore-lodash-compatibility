@@ -52,6 +52,15 @@ Then configure the rules you want to use under the rules section.
 
 * [no-uncommon-functions](docs/rules/no-uncommon-functions.md): Disallow functions that don't exist in lodash or underscore
 
+## Contributing
+
+```sh
+$ git clone https://github.com/afahim/eslint-plugin-underscore-lodash-compatibility.git
+$ cd eslint-plugin-underscore-lodash-compatibility
+$ npm test
+```
+
+This project follows the [ESLint contribution guidelines](http://eslint.org/docs/developer-guide/contributing/pull-requests).
 
 ## License and Copyright
 
